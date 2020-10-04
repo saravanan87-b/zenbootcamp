@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us</title>
+<link rel="stylesheet" href="contactus.css">
+<h2 align="">Contact Us</h2>
+</head>
+<body style="background-color:gold;">
+	<div class="container">
+		<form action="#">
+			<label for="fname">First Name : </label><span style="color:red;">*</span>
+			<input type="text" id="fname" name="firstname" placeholder="Enter your First Name..." required>
+			
+			<label for="lname">Last Name : </label><span style="color:red;">*</span>
+			<input type="text" id="lname" name="lastname" placeholder="Enter your Last Name..." required>
+			
+			<label for="country">Country : </label><span style="color:red;">*</span>
+			<select id="country" name="country" required>
+			    <option value="select" selected>Select</option>
+				<option value="australia">Australia</option>
+				<option value="Canada">Canada</option>
+				<option value="usa">USA</option>
+				<option value="uae">UAE</option>
+			</select>
+			
+			<label for="subject">Subject : </label><span style="color:red;">*</span>
+			<textarea id="subject" name="subject" placeholder="Write here..." style="height:200px" required></textarea>
+			
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+</body>
+</html>

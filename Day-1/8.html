@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>>Default Values</title>
+<h2 align="center" style="color:blue;">Default values for all Form elements</h2>
+<hr>
+</head>
+<body style="background-color:lavender;">
+<table align="center" border="2" cellpadding = "5" cellspacing = "5" style="width:50%;background-color:gold;border-color:red;">
+
+<tr>
+	<td align="center"><label for="name">Name : </label></td>
+	<td><input type="text" id="name" name="name" value="Saravanan" placeholder="Enter your name here..." style="width:60%">
+</tr>
+
+<tr>
+	<td align="center"><label for="password">Password : </label></td>
+	<td><input type="password" id="pwd" name="pwd" value="1234" placeholder="Enter your Password here..." style="width:60%"></td>
+</tr>
+
+<tr>
+	<td align="center"><label for="confirmPassword">Confirm Password : </label></td>
+	<td><input type="password" id="confpwd" name="confpwd" value="1234" placeholder="Re-Enter your Password here..." style="width:60%"></td>
+</tr>
+
+<tr>
+	<td align="center"><label for="gender">Gender : </label></td>
+	<td><input type="radio" name="gender" value="male" checked>Male<br>
+		<input type="radio" name="gender" value="female">Female
+	</td>
+</tr>
+
+<tr>
+	<td align="center"><label for="bday">Date of Birth : </label></td>
+	<td><input type="date" name="bday" value="10/04/2020"></td>
+</tr>
+
+<tr>
+	<td align="center"><label for="birthTime">Birth Time: </label></td>
+	<td><input type="time" name="birthTime"></td>
+</tr>
+
+<tr>
+	<td align="center"><label for="dateAndBirthTime"> Date and Birth Time: </label></td>
+	<td><input type="datetime-local" name="dateAndBirthTime"></td>
+</tr>
+
+<tr>
+	<td align="center"><label for="country">Country : </label></td>
+	<td><select name="country">
+			<option value="sel">--Select--</option>
+			<option value="aus">Australia</option>
+			<option value="usa">USA</option>
+			<option value="ind" selected>India</option>
+			<option value="uae">UAE</option>
+			<option value="sri">Srilanka</option>
+		</select>
+	</td>
+</tr>
+
+<tr>
+	<td align="center"><label for="email">Email - Id : </label></td>
+	<td><input type="email" name="email" value="saravanan87.balasundaram@gmail.com" placeholder="Enter your Email address..." style="width:60%"><br>
+	<small>Format: vravi@gmail.com</small></td>
+</tr>
+
+<tr>
+	<td align="center"><label for="phone">Enter your Mobile number:</label></td>
+	<td><input type="tel" id="phone" name="phone" pattern="[0-9]{2}-[0-9]{10}" value="+91-9003078448" placeholder="91-0123456789"><br>
+	<small>Format: +91-9003078448</small></td>
+</tr>
+
+<tr>
+	<td align="center"><label for="avatar">Upload your Avatar : </label></td>
+	<td><input type="file" id="avatar" name="avatar"></td>
+</tr>
+
+<tr>
+	<td align="center"><label for="courses">Course enrolled for : </label></td>
+	<td><input type="checkbox" name="courses" value="cpp" checked>Zen Boot-camp<br>
+		<input type="checkbox" name="courses" value="java" checked>Java<br>
+		<input type="checkbox" name="courses" value="php">PHP<br>
+		<input type="checkbox" name="courses" value="javascript">Java script
+	</td>
+</tr>
+
+<tr>
+	<td align="center"><label for="bdaymonth"> Course enrolled Month : </label></td>
+	<td><input type="month" name="bdaymonth" value="October, 2020"></td>
+</tr>
+
+<tr>
+	<td align="center"><label for="week"> Course enrolled Week : </label></td>
+	<td><input type="week" name="week" value="Week 40, 2020"></td>
+</tr>
+
+<tr>
+	<td align="center"><label for="batchNumber"> Batch Number : </label></td>
+	<td><input type="number" name="batchNumber" min="1" max="20" value="17"></td>
+</tr>
+
+<tr>
+	<td align="center"><label for="range"> Price Range : </label></td>
+	<td><input type="range" name="points" min="1" max="10"></td>
+</tr>
+
+<tr>
+	<td align="center"><label for="webaddress"> Enrollment URL : </label></td>
+	<td><input type="url" name="webaddress" value="https://www.google.com"></td>
+</tr>
+
+<tr>
+	<td align="center"><label for="favcolor">Choose your Favorite Color : </label></td>
+	<td><input type="color" name="favcolor" value="red"></td>
+</tr>
+
+<tr>
+	<td align="center"><label for="captcha">Captcha Image : </label></td>
+	<td><input type="image" src="captcha.png" alt="Submit" width="60" height="60"></td>
+</tr>
+
+<tr>
+	<td align="center"><label for="address">Address : </label></td>
+	<td><textarea id="address" name="address" rows="4" cols="60" placeholder="Enter your address here...">Alapakkam, Porur, Chennai-600116.</textarea></td>
+</tr>
+
+<tr colspan="3">
+	<td align="center"><input type="button" value="Normal Button"></td>
+	<td align="center"><input type="reset" value="Reset">
+					   <input type="submit" name="submit" value="Submit"></td>
+</tr>
+
+</table>
+</body>
+</html>
